@@ -1,0 +1,20 @@
+
+.carousel{
+
+    display: flex;
+    overflow-x: scroll;
+    // justify-content: space-around;
+    gap: 20px;
+ 
+    .card{
+        min-width: 300px;
+        background-color: #698C92;
+    }
+    .card-img-top{
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+    }
+
+}
+

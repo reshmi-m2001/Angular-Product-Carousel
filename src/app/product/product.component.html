@@ -1,0 +1,38 @@
+<!-- <p>product works!</p> -->
+<div class="container">
+
+    <div class="">
+        @for(cate of category;track cate.name){
+        <div>
+            <h1>
+                {{cate.name}}
+            </h1>
+            <div class="carousel">
+                @for(item of cate.products; track item.id){
+
+
+                <div class="card" >
+                    <img src="{{item.images[0]}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{item.title}}</h5>
+                        <p class="card-text">{{item.description}}</p>
+                        <h5 class="card-title">{{item.price}}</h5>
+                    </div>
+                </div>
+
+                <!-- <h3>{{item.title}}</h3>
+            <p>{{item.description}} </p>
+            <p item.category></p>
+            <p item.price></p> -->
+
+
+
+                }
+            </div>
+        </div>
+        }
+    </div>
+
+    <!-- 
+    } -->
+</div>
